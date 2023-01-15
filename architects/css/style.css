@@ -229,5 +229,36 @@ main{
     font-size: 20px;
     color: var(--des-color);
 }
-
-
+/* Sponsors section styles */
+.sponsors{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.sponsors p{
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--des-color);
+    margin: 0 auto;
+}
+.sponsor-logos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+/* Footer section styles */
+.footer-container{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    text-align: center;
+}
+.footer-container p{
+    padding: 40px 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
