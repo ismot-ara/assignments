@@ -58,9 +58,18 @@
         bottom:-69px;
         padding: 25px 22px;
     }
-    
-
-    
+    /* Facts section responsive */
+    .facts{
+        width: 100%;
+        margin: 0;
+    }
+    .facts > p{
+        width: 100%;
+    }
+    .anim-box{
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 /* tab device */
 @media screen and (min-width:577px) and (max-width:1200px) {
@@ -107,5 +116,17 @@
     .service-box{
         left:0;
         bottom:-69px;
+    }
+    /* Facts section responsive */
+    .facts{
+        width: 100%;
+        margin: 0;
+    }
+    .facts > p{
+        width: 100%;
+    }
+    .anim-box{
+        flex-direction: column;
+        gap: 30px;
     }
 }
