@@ -91,8 +91,9 @@ body{
 /* Feature section styles  */
 main{
     display: flex;
-    justify-content: center;
     padding: 50px 20px;
+    flex-direction: column;
+    align-items: center;
 }
 .feature{
     display: flex;
@@ -126,4 +127,67 @@ main{
     color: var(--des-color);
     margin-bottom: 32px;
 }
+/* service section styles  */
+.service{
+    display: flex;
+    width: 1440px;
+    justify-content: space-between;
+    margin: 130px 0;
+    align-items: center;
+}
+.service-info{
+    width: 600px;
+}
+
+.service-banner img{
+    width: 100%;
+}
+.service-info h2{
+    padding-left: 21px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    border-left: 5px solid var(--secondary-color);
+    margin-bottom: 24px;
+}
+.service-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--des-color);
+    margin-bottom: 70px;
+}
+.services{
+    padding-left: 30px;
+}
+.services h4{
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+.service-banner{
+    width: 800px;
+    position: relative;
+}
+.service-box{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 42px 45px;
+    position: absolute;
+    left: -85px;
+    bottom: -75px;
+}
+.service-box h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.service-box p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
 

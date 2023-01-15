@@ -29,7 +29,9 @@
         max-width: 100%;
     }
     /* feature responsive */
-    .feature{flex-direction: column;
+    .feature{
+        flex-direction: column;
+        width: 100%;
     }
     .gallery{
         grid-template-columns: repeat(1, 1fr);
@@ -38,6 +40,26 @@
         font-size: 35px;
         line-height: 45px;
     }
+    /* service section responsive  */
+    .service{
+        flex-direction: column;
+        width: 100%;
+    }
+   
+    .service-info, .service-banner{
+        width: 100%;
+    }
+    .service-info h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .service-box{
+        left:0;
+        bottom:-69px;
+        padding: 25px 22px;
+    }
+    
+
     
 }
 /* tab device */
@@ -67,9 +89,23 @@
         max-width: 100%;
     }
     /* feature responsive */
-    .feature{flex-direction: column;
+    .feature{
+        flex-direction: column;
+        width: 100%;
     }
     .gallery img{
         width: 100%;
+    }
+    /* service section responsive */
+    .service{
+        flex-direction: column;
+        width: 100%;
+    }
+    .service-info, .service-banner{
+        width: 100%;
+    }
+    .service-box{
+        left:0;
+        bottom:-69px;
     }
 }
