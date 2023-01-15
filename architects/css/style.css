@@ -88,3 +88,42 @@ body{
     margin-bottom: 45px;
     width: 100%;
 }
+/* Feature section styles  */
+main{
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.feature{
+    display: flex;
+    width: 1350px;
+    align-items: center;
+    gap: 70px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-title{
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.feature-title span:first-child{
+    color: var(--des-color);
+    font-weight: 500;
+}
+.feature-title span:last-child{
+    color: var(--secondary-color);
+}
+.feture-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--des-color);
+    margin-bottom: 32px;
+}
+
